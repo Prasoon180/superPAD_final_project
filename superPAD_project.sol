@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:GPL-3.0
 pragma solidity ^0.8.15;
 import "github.com/Prasoon180/superPAD_Final_Project_1/blob/main/BEP20.sol";
-contract timestamp_2{
+contract superPAD {
     
     uint  _weeks;
     uint  _balances;
