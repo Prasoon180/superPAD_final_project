@@ -3,7 +3,6 @@ pragma solidity ^0.8.15;
 
 import "github.com/Prasoon180/superPAD_final_project/blob/main/BEP20.sol";
 
-
 contract Token is BEP20 {
   
   address public admin;
