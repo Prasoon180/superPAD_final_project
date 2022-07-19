@@ -11,19 +11,6 @@ contract Token is BEP20 {
 
   constructor()  {
     admin = msg.sender;
-    maxTotalSupply = 200000000* 10 ** 18;
-  }
-
-
-
-contract Token is BEP20 {
-  
-  address public admin;
-  uint public maxTotalSupply;
-
-  constructor()  {
-    admin = msg.sender;
-    maxTotalSupply = 200000000* 10 ** 18;
   }
 
   function updateAdmin(address newAdmin) external {
