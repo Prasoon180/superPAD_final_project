@@ -15,8 +15,6 @@ interface IBEP20 {
     function transfer(address to, uint256 amount) external returns (bool);
 
     function allowance(address owner, address spender) external view returns (uint256);
-    
-    function mint(address to, uint256 amount) external view returns(bool);
 
     /**
      * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.
